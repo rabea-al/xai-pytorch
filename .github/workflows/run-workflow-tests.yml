@@ -56,12 +56,13 @@ jobs:
       run: |
         export PYTHONPATH="${GITHUB_WORKSPACE}:${PYTHONPATH}"
         LOG_FILE="${GITHUB_WORKSPACE}/workflow_logs.txt"
-        IFS=$'\n' read -r -a TEST_FILES <<< "$TEST_XIRCUITS"
+        TEST_FILES=$(echo "$TEST_XIRCUITS" | tr '\n' ' ')
+        IFS=' ' read -r -a FILE_ARRAY <<< "$TEST_FILES"
         FAIL=0
-        if [ ${#TEST_FILES[@]} -eq 0 ]; then
+        if [ ${#FILE_ARRAY[@]} -eq 0 ]; then
           echo "No .xircuits files specified for testing." | tee -a $LOG_FILE
         else
-          for file in "${TEST_FILES[@]}"; do
+          for file in "${FILE_ARRAY[@]}"; do
             FULL_PATH="${COMPONENT_LIBRARY_PATH}/${file}"
             if [ -f "$FULL_PATH" ]; then
               WORKFLOW_LOG_FILE="${FULL_PATH%.*}_workflow_log.txt"
