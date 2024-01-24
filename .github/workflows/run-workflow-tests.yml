@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TEST_XIRCUITS: |
-        examples/example.xircuits
-        # path/to/your/workflow.xircuits
-        # Add more .xircuits files as needed, one per line
-
+        examples/PytorchTrainModel.xircuits
+        examples/PytorchPredictFromModel.xircuits
+        examples/PytorchTrainCustomNN.xircuits
+        
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
@@ -22,19 +22,33 @@ jobs:
     - name: Install xircuits
       run: pip install xircuits
 
-    - name: List xircuits
-      run: xircuits list
-
-    - name: Set COMPONENT_LIBRARY_PATH
+    - name: Set Environment Variables
       run: |
-        REPO_NAME="${GITHUB_REPOSITORY##*/}"
-        COMPONENT_LIBRARY_PATH=$(echo "xai_components/xai_${REPO_NAME}" | sed 's/-/_/g')
+        LIBRARY_NAME=$(echo "${GITHUB_REPOSITORY##*/}" | sed 's/-/_/g')
+        echo "LIBRARY_NAME=$LIBRARY_NAME" >> $GITHUB_ENV
+        COMPONENT_LIBRARY_PATH="xai_components/${LIBRARY_NAME}"
         echo "COMPONENT_LIBRARY_PATH=$COMPONENT_LIBRARY_PATH" >> $GITHUB_ENV
 
-    - name: Clone Pull Request
+    - name: List Xircuits
+      run: xircuits list 
+
+    - name: Clone Repository
       run: |
-        PR_BRANCH=${{ github.event.pull_request.head.ref }}
-        git clone -b $PR_BRANCH https://github.com/${{ github.repository }} ${{ env.COMPONENT_LIBRARY_PATH }}
+        if [ "${{ github.ref }}" == "refs/heads/main" ]; then
+          git clone https://github.com/${{ github.repository }} ${{ env.COMPONENT_LIBRARY_PATH }}
+        else
+          PR_BRANCH=${{ github.event.pull_request.head.ref }}
+          git clone -b $PR_BRANCH https://github.com/${{ github.repository }} ${{ env.COMPONENT_LIBRARY_PATH }}
+        fi
+
+    - name: Install Component Library
+      run: |
+        if [ -f "${{ env.COMPONENT_LIBRARY_PATH }}/requirements.txt" ]; then
+          echo "requirements.txt found, installing dependencies..."
+          pip install -r ${{ env.COMPONENT_LIBRARY_PATH }}/requirements.txt
+        else
+          echo "requirements.txt not found."
+        fi
 
     - name: Test .xircuits Workflows
       run: |
