@@ -14,7 +14,7 @@ jobs:
         examples/PytorchTrainModel.xircuits
         examples/PytorchPredictFromModel.xircuits
         examples/PytorchTrainCustomNN.xircuits
-        
+
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
@@ -34,6 +34,8 @@ jobs:
 
     - name: Clone Repository
       run: |
+        # as of 1.9, xai_pytorch still lives in the base xircuits installation
+        rm -rf ${{ env.COMPONENT_LIBRARY_PATH }}
         if [ "${{ github.ref }}" == "refs/heads/main" ]; then
           git clone https://github.com/${{ github.repository }} ${{ env.COMPONENT_LIBRARY_PATH }}
         else
