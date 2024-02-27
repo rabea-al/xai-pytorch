@@ -3,10 +3,13 @@
 These libraries collectively provide extensive functionalities for integrating PyTorch into Xircuits workflows, encompassing both general PyTorch operations and neural network-specific tasks.
 
 ### Installation
+
+To use this component library in Xircuits, simply run the Xircuits install command in your working directory.
 ```bash
-pip install xircuits-pytorch-components
+xircuits install pytorch
 ```
-You may also install it manually via
+
+Alternatively, you may also clone this repository into your `xai_components` directory and install it manually via
 ```
 pip install -r requirements.txt
 ```
