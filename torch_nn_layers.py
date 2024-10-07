@@ -20,7 +20,7 @@ class TorchModel(Component):
 
     model_in: InArg[list]
     loss_in: InArg[str]
-    learning_rate = InArg[float]
+    learning_rate: InArg[float]
     optimizer_in: InArg[str]
     should_flatten: InArg[bool]
     model_config: OutArg[nn.Module]
