@@ -20,7 +20,7 @@ class TorchModel(Component):
 
     model_in: InArg[list]
     loss_in: InArg[str]
-    learning_rate = InArg[float]
+    learning_rate : InArg[float]
     optimizer_in: InArg[str]
     should_flatten: InArg[bool]
     model_config: OutArg[nn.Module]
@@ -91,12 +91,13 @@ class TorchAddLinearLayer(Component):
     out_features: InArg[int]
     bias: InArg[bool]
     model_out: OutArg[list]
-
+    
     def execute(self,ctx) -> None:
         bias = True if self.bias.value is None else False
         in_size = self.in_features.value
         out_size = self.out_features.value
-        
+        print("model_in value before adding Linear layer:", type(self.model_in.value))
+
         if self.model_in.value is None:
             self.model_out.value = [nn.Linear(in_size, out_size, bias)]
         else:
