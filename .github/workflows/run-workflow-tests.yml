@@ -5,6 +5,7 @@ on:
     branches: [ main ]
   pull_request:
     branches: "*"
+  workflow_dispatch:
 
 jobs:
   build-and-run:
@@ -28,20 +29,24 @@ jobs:
         echo "LIBRARY_NAME=$LIBRARY_NAME" >> $GITHUB_ENV
         COMPONENT_LIBRARY_PATH="xai_components/${LIBRARY_NAME}"
         echo "COMPONENT_LIBRARY_PATH=$COMPONENT_LIBRARY_PATH" >> $GITHUB_ENV
+        if [ "${{ github.event_name }}" == "pull_request" ]; then
+          echo "BRANCH_NAME=${{ github.head_ref }}" >> $GITHUB_ENV
+        else
+          echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+        fi
 
     - name: List Xircuits
       run: xircuits list 
 
     - name: Clone Repository
       run: |
-        # as of 1.9, xai_pytorch still lives in the base xircuits installation
         rm -rf ${{ env.COMPONENT_LIBRARY_PATH }}
-        if [ "${{ github.ref }}" == "refs/heads/main" ]; then
-          git clone https://github.com/${{ github.repository }} ${{ env.COMPONENT_LIBRARY_PATH }}
+        if [ "${{ github.event_name }}" == "pull_request" ]; then
+          REPO_URL="${{ github.event.pull_request.head.repo.clone_url }}"
         else
-          PR_BRANCH=${{ github.event.pull_request.head.ref }}
-          git clone -b $PR_BRANCH https://github.com/${{ github.repository }} ${{ env.COMPONENT_LIBRARY_PATH }}
+          REPO_URL="https://github.com/${{ github.repository }}"
         fi
+        git clone -b ${{ env.BRANCH_NAME }} $REPO_URL ${{ env.COMPONENT_LIBRARY_PATH }}
 
     - name: Install Component Library
       run: |
@@ -57,6 +62,9 @@ jobs:
         export PYTHONPATH="${GITHUB_WORKSPACE}:${PYTHONPATH}"
         LOG_FILE="${GITHUB_WORKSPACE}/workflow_logs.txt"
         TEST_FILES=$(echo "$TEST_XIRCUITS" | tr '\n' ' ')
+        echo "Repository: $LIBRARY_NAME" > $LOG_FILE
+        echo "Branch: $BRANCH_NAME" >> $LOG_FILE
+        echo -e "Testing Files:\n$TEST_FILES" >> $LOG_FILE
         IFS=' ' read -r -a FILE_ARRAY <<< "$TEST_FILES"
         FAIL=0
         if [ ${#FILE_ARRAY[@]} -eq 0 ]; then
@@ -66,7 +74,7 @@ jobs:
             FULL_PATH="${COMPONENT_LIBRARY_PATH}/${file}"
             if [ -f "$FULL_PATH" ]; then
               WORKFLOW_LOG_FILE="${FULL_PATH%.*}_workflow_log.txt"
-              echo "\n\nProcessing $FULL_PATH..." | tee -a $LOG_FILE
+              echo -e "\n\nProcessing $FULL_PATH..." | tee -a $LOG_FILE
               xircuits compile $FULL_PATH "${FULL_PATH%.*}.py" 2>&1 | tee -a $LOG_FILE
               python "${FULL_PATH%.*}.py" 2>&1 | tee -a $WORKFLOW_LOG_FILE
               LAST_LINE=$(tail -n 1 "$WORKFLOW_LOG_FILE")
@@ -92,7 +100,7 @@ jobs:
 
     - name: Upload log file
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: workflow-logs
+        name: ${{ env.LIBRARY_NAME }}-validation-workflow
         path: ${{ github.workspace }}/workflow_logs.txt
