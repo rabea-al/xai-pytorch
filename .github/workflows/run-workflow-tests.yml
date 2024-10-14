@@ -10,17 +10,30 @@ on:
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11"]
     env:
       TEST_XIRCUITS: |
         examples/PytorchTrainModel.xircuits
         examples/PytorchPredictFromModel.xircuits
         examples/PytorchTrainCustomNN.xircuits
-
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Install xircuits
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Create virtual environment
+      run: |
+        python -m venv venv
+        echo "${{ github.workspace }}/venv/bin" >> $GITHUB_PATH
+
+    - name: Install xircuits in virtual environment
       run: pip install xircuits
 
     - name: Set Environment Variables
@@ -36,7 +49,7 @@ jobs:
         fi
 
     - name: List Xircuits
-      run: xircuits list 
+      run: xircuits list
 
     - name: Clone Repository
       run: |
@@ -56,7 +69,7 @@ jobs:
         else
           echo "requirements.txt not found."
         fi
-
+          
     - name: Test .xircuits Workflows
       run: |
         export PYTHONPATH="${GITHUB_WORKSPACE}:${PYTHONPATH}"
@@ -102,5 +115,5 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.LIBRARY_NAME }}-validation-workflow
+        name: ${{ env.LIBRARY_NAME }}-validation-workflow-${{ matrix.python-version }}
         path: ${{ github.workspace }}/workflow_logs.txt
