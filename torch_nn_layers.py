@@ -91,12 +91,12 @@ class TorchAddLinearLayer(Component):
     out_features: InArg[int]
     bias: InArg[bool]
     model_out: OutArg[list]
-
+    
     def execute(self,ctx) -> None:
         bias = True if self.bias.value is None else False
         in_size = self.in_features.value
         out_size = self.out_features.value
-        
+
         if self.model_in.value is None:
             self.model_out.value = [nn.Linear(in_size, out_size, bias)]
         else:

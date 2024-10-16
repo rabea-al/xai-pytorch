@@ -284,7 +284,7 @@ class LoadTorchModelState(Component):
         print(f"Using {device} device")
 
         model = self.model_config.value.to(device)
-        model.load_state_dict(torch.load(self.model_path.value))
+        model.load_state_dict(torch.load(self.model_path.value,weights_only=True))
 
         self.loaded_model.value = model
 

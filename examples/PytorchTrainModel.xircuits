@@ -1,12 +1,12 @@
 {
     "id": "ed72f16f-f4b7-4c67-92c2-33c0090b9c56",
-    "offsetX": 22.120601709344882,
-    "offsetY": 162.96761784088608,
-    "zoom": 50.00000000000003,
+    "offsetX": 21.179268978359246,
+    "offsetY": 136.06577049839265,
+    "zoom": 64.00000000000003,
     "gridSize": 0,
     "layers": [
         {
-            "id": "fe9699e3-2c7d-4026-b99c-a222c6694a54",
+            "id": "cc7ae89f-930e-4fcc-bf0c-6fb94d6dac6b",
             "type": "diagram-links",
             "isSvg": true,
             "transformed": true,
@@ -15,22 +15,22 @@
                     "id": "5315243a-5649-4661-b756-b60c60747c9d",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "b21a101a-2cdb-4bf5-80dc-48a641717419",
-                    "sourcePort": "12717700-1e0a-49ad-a720-6e13f9ecc17d",
-                    "target": "51a2fbc2-fc54-483b-b614-5441bdf2737f",
-                    "targetPort": "a92e8932-f808-4f23-b31d-d6c9c1224a81",
+                    "source": "57b2a06b-92f6-4ee1-97eb-2923777aa218",
+                    "sourcePort": "d4358e6a-12ac-4607-aef0-8cf548c723fa",
+                    "target": "28fed5a6-c5ae-4477-97cd-d76d37bb4afb",
+                    "targetPort": "7d2aae7d-a3d3-41a0-8422-3267b822e640",
                     "points": [
                         {
                             "id": "d5144807-0960-47ae-b339-45e66e12e7d7",
                             "type": "point",
-                            "x": 1673.872,
-                            "y": 102.159
+                            "x": 1703.1251487906986,
+                            "y": 105.1750006286463
                         },
                         {
                             "id": "26c461e0-963c-4098-b59e-34bb46b7a463",
                             "type": "point",
-                            "x": 1765.909,
-                            "y": 178.293
+                            "x": 1768.0249748405033,
+                            "y": 181.31247704308836
                         }
                     ],
                     "labels": [],
@@ -45,20 +45,20 @@
                     "selected": false,
                     "source": "6386d197-25cb-4a6f-8628-e411802a404c",
                     "sourcePort": "1394a01e-4771-45a3-9f26-4e47fc2d173d",
-                    "target": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
-                    "targetPort": "be5ea97e-8c1d-4054-a75a-a502e73c3353",
+                    "target": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
+                    "targetPort": "085d25bf-8188-4fbe-9d58-44e97e2ee532",
                     "points": [
                         {
                             "id": "d4dce963-b743-40b7-9cc9-7fd80d87acb5",
                             "type": "point",
-                            "x": 887.575,
-                            "y": 215.966
+                            "x": 895.0000343497809,
+                            "y": 215.98752160948123
                         },
                         {
                             "id": "c3ff2e18-7128-439f-b79f-aee320a645ce",
                             "type": "point",
-                            "x": 988.247,
-                            "y": 176.985
+                            "x": 990.3750000175055,
+                            "y": 208.08747430723514
                         }
                     ],
                     "labels": [],
@@ -71,16 +71,16 @@
                     "id": "83752b8d-3dcc-4600-8242-b91e65e20f36",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "a00dc242-2720-483e-867c-9d0f9db6689d",
-                    "sourcePort": "ff79fc7d-4550-4f96-b51e-735097765782",
-                    "target": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
-                    "targetPort": "aab11fe4-03b1-4077-bf56-c581cdd506a8",
+                    "source": "093fcbea-7ab0-4654-93e1-b69148236c10",
+                    "sourcePort": "36c45128-36f6-4710-ad5e-bc8a27a46329",
+                    "target": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
+                    "targetPort": "5504bc0b-d38d-4fe6-b95e-668110eadcc9",
                     "points": [
                         {
                             "id": "fed368f0-cd77-4b50-80e8-c2685a8461c2",
                             "type": "point",
-                            "x": 658.779,
-                            "y": 126.499
+                            "x": 632.3374328788337,
+                            "y": 135.13749261778204
                         },
                         {
                             "id": "b21eec99-e4a5-41f2-9542-1ef2edf56793",
@@ -109,8 +109,8 @@
                         {
                             "id": "6c4e84bf-17a3-44fd-b532-1c8c7255d590",
                             "type": "point",
-                            "x": 988.247,
-                            "y": 113.05
+                            "x": 990.3750000175055,
+                            "y": 121.68748994749396
                         }
                     ],
                     "labels": [],
@@ -125,20 +125,20 @@
                     "selected": false,
                     "source": "8280f38d-de54-4b9e-ab0d-b38b5d06f4ea",
                     "sourcePort": "eed7eb52-3ae5-4137-9925-dbcbdef7fd0f",
-                    "target": "a3e45784-15e9-4216-95c0-f426c85990e3",
-                    "targetPort": "b83686e3-e409-46e7-98de-822e17561bd8",
+                    "target": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
+                    "targetPort": "ae1b21d9-3149-471f-813e-d06f0149b6b4",
                     "points": [
                         {
                             "id": "d6dda5d3-bf64-41e7-a1d7-4479c563d154",
                             "type": "point",
-                            "x": 90.341,
-                            "y": 146.522
+                            "x": 119.96250726543062,
+                            "y": 149.53752701562254
                         },
                         {
                             "id": "b1166ac4-9eb7-41bd-977f-5baf9fd86839",
                             "type": "point",
-                            "x": 172.008,
-                            "y": 80.284
+                            "x": 174.12499986849417,
+                            "y": 83.30000062864633
                         }
                     ],
                     "labels": [],
@@ -153,20 +153,20 @@
                     "selected": false,
                     "source": "3ddb236a-fa4f-4343-9118-9321675f5b4d",
                     "sourcePort": "0f7fd679-27ae-44d5-8d23-043d6d036e82",
-                    "target": "a3e45784-15e9-4216-95c0-f426c85990e3",
-                    "targetPort": "4a4dcb3b-1173-4b1b-87cf-4e8f80755656",
+                    "target": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
+                    "targetPort": "2a362191-a105-4905-818e-82e1f80f8ec4",
                     "points": [
                         {
                             "id": "02678bd4-ac16-419b-8eb2-47acbd9b1572",
                             "type": "point",
-                            "x": 81.626,
-                            "y": 219.126
+                            "x": 83.83748583756082,
+                            "y": 219.15003006738033
                         },
                         {
                             "id": "fe90fdca-d351-4c37-ac05-45ab46528edc",
                             "type": "point",
-                            "x": 172.008,
-                            "y": 96.267
+                            "x": 174.12499986849417,
+                            "y": 104.90000863951056
                         }
                     ],
                     "labels": [],
@@ -179,22 +179,22 @@
                     "id": "3e7d385e-3c9b-4227-b5e2-c95745445221",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "a3e45784-15e9-4216-95c0-f426c85990e3",
-                    "sourcePort": "0ab1608a-d7c5-4f60-a1ec-bc5e0325121e",
-                    "target": "a00dc242-2720-483e-867c-9d0f9db6689d",
-                    "targetPort": "e7527715-bd3c-4741-9b19-8984528d9364",
+                    "source": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
+                    "sourcePort": "806cf7b4-3df2-483c-8c93-88061a4f30a3",
+                    "target": "093fcbea-7ab0-4654-93e1-b69148236c10",
+                    "targetPort": "b15ae97c-d882-4b0e-ade5-71749dd1c652",
                     "points": [
                         {
                             "id": "b26f2a85-7b97-4b7a-b69b-3c723df416fc",
                             "type": "point",
-                            "x": 393.316,
-                            "y": 80.284
+                            "x": 366.8625412162362,
+                            "y": 83.30000062864633
                         },
                         {
                             "id": "32c35899-2a9f-4782-9811-49bd7b5068bb",
                             "type": "point",
-                            "x": 427.691,
-                            "y": 110.515
+                            "x": 429.81248475871666,
+                            "y": 113.5375322906336
                         }
                     ],
                     "labels": [],
@@ -207,22 +207,22 @@
                     "id": "5bfb5a89-54f9-40ec-b6d2-77959517e384",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "a3e45784-15e9-4216-95c0-f426c85990e3",
-                    "sourcePort": "acb9ddf2-95af-490f-abea-6d04c14a3e93",
-                    "target": "a00dc242-2720-483e-867c-9d0f9db6689d",
-                    "targetPort": "297bf42a-5ed1-4e77-af0a-350833a06bd1",
+                    "source": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
+                    "sourcePort": "1291e851-b2b1-4057-94c7-ce62b42a5da4",
+                    "target": "093fcbea-7ab0-4654-93e1-b69148236c10",
+                    "targetPort": "87112eb0-1e7c-437b-8318-bdb495ccf583",
                     "points": [
                         {
                             "id": "2ec651d7-f0b2-4fd0-a452-304a9252a678",
                             "type": "point",
-                            "x": 393.316,
-                            "y": 96.267
+                            "x": 366.8625412162362,
+                            "y": 104.90000863951056
                         },
                         {
                             "id": "0605649f-fe9a-464a-8812-ca3f3a0dea7f",
                             "type": "point",
-                            "x": 427.691,
-                            "y": 126.499
+                            "x": 429.81248475871666,
+                            "y": 135.13749261778204
                         }
                     ],
                     "labels": [],
@@ -235,22 +235,22 @@
                     "id": "94d8f427-14c6-451f-9a22-91ceb0153ed9",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "a3e45784-15e9-4216-95c0-f426c85990e3",
-                    "sourcePort": "dbfba75d-2190-47b5-a38c-61ab3b6c5391",
-                    "target": "a00dc242-2720-483e-867c-9d0f9db6689d",
-                    "targetPort": "e029bcdf-453f-4c20-aee5-79b05b7e56d2",
+                    "source": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
+                    "sourcePort": "71f42fa7-c508-45e2-9335-7ddfcc4e3f47",
+                    "target": "093fcbea-7ab0-4654-93e1-b69148236c10",
+                    "targetPort": "9960f397-94cd-4826-ae1a-3114c984c2f5",
                     "points": [
                         {
                             "id": "91439964-c1e0-4f75-b5cf-7ca202da8470",
                             "type": "point",
-                            "x": 393.316,
-                            "y": 112.251
+                            "x": 366.8625412162362,
+                            "y": 126.50001665037482
                         },
                         {
                             "id": "21fa822c-e87f-4f9c-96cd-0f8d479054ad",
                             "type": "point",
-                            "x": 427.691,
-                            "y": 142.483
+                            "x": 429.81248475871666,
+                            "y": 156.7375006286463
                         }
                     ],
                     "labels": [],
@@ -263,22 +263,22 @@
                     "id": "64534766-c617-4b15-b0fc-25ddb1411ba2",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
-                    "sourcePort": "ef0df415-924d-436a-b99a-aa506461bc63",
-                    "target": "b21a101a-2cdb-4bf5-80dc-48a641717419",
-                    "targetPort": "83598e73-3b1b-42f8-8402-ac65bc5ac493",
+                    "source": "deb5e405-b8ed-4139-9d70-5f830413a49b",
+                    "sourcePort": "9eff282a-6b08-4645-ae60-c0d25578f469",
+                    "target": "57b2a06b-92f6-4ee1-97eb-2923777aa218",
+                    "targetPort": "62eb9878-1b66-4e77-8582-089c07821b50",
                     "points": [
                         {
                             "id": "09c61688-acae-4329-a3d8-dcc5f3d121fd",
                             "type": "point",
-                            "x": 1451.071,
-                            "y": 99.485
+                            "x": 1432.3875767763668,
+                            "y": 102.51248498838751
                         },
                         {
                             "id": "49ac28cd-8a9c-414d-92e8-9ece38d1ae62",
                             "type": "point",
-                            "x": 1537.367,
-                            "y": 102.159
+                            "x": 1539.4876060660893,
+                            "y": 105.1750006286463
                         }
                     ],
                     "labels": [],
@@ -291,16 +291,16 @@
                     "id": "66f58ee3-9376-4a02-9fa1-cedf343482cc",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "a00dc242-2720-483e-867c-9d0f9db6689d",
-                    "sourcePort": "2c60631b-a68a-4aad-a391-dbafd0057133",
-                    "target": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
-                    "targetPort": "3fb2ff1c-7a40-4710-afb0-2d0e05e725ac",
+                    "source": "093fcbea-7ab0-4654-93e1-b69148236c10",
+                    "sourcePort": "d0a79088-7b10-4098-ba6c-44260833fcc0",
+                    "target": "deb5e405-b8ed-4139-9d70-5f830413a49b",
+                    "targetPort": "5e184116-cab3-4e95-b682-32f221847a54",
                     "points": [
                         {
                             "id": "e921009a-86dc-4e94-805b-54465c1eb4d7",
                             "type": "point",
-                            "x": 658.779,
-                            "y": 142.483
+                            "x": 632.3374328788337,
+                            "y": 156.7375006286463
                         },
                         {
                             "id": "3eb6af74-a079-418c-849e-2e0705db96c8",
@@ -329,8 +329,8 @@
                         {
                             "id": "64f7190d-5e6f-4875-8c73-ff8f6099192c",
                             "type": "point",
-                            "x": 1295.017,
-                            "y": 131.453
+                            "x": 1297.1499977286871,
+                            "y": 145.71250101011603
                         }
                     ],
                     "labels": [],
@@ -343,22 +343,22 @@
                     "id": "947d042f-b3e4-4c99-907f-3f312ee8747e",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
-                    "sourcePort": "c63ea41e-4532-41eb-a7ea-8a1470b7a16a",
-                    "target": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
-                    "targetPort": "ce2962d3-1fa6-44d8-a5de-b83f077c5f3a",
+                    "source": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
+                    "sourcePort": "0007793b-017a-487a-bfaf-a16d7a1ac7ba",
+                    "target": "deb5e405-b8ed-4139-9d70-5f830413a49b",
+                    "targetPort": "9d9b56d8-4690-4a85-8cd6-cd0e9e01e619",
                     "points": [
                         {
                             "id": "11005ea9-d868-4bfc-bb25-bd0027df2d70",
                             "type": "point",
-                            "x": 1225.446,
-                            "y": 97.066
+                            "x": 1198.999935167652,
+                            "y": 100.08751099389403
                         },
                         {
                             "id": "901f4da5-1f0b-416e-b90e-f9f6990e6be1",
                             "type": "point",
-                            "x": 1295.017,
-                            "y": 99.485
+                            "x": 1297.1499977286871,
+                            "y": 102.51248498838751
                         }
                     ],
                     "labels": [],
@@ -371,22 +371,22 @@
                     "id": "8e0a72e0-c9ff-48ae-a50d-5ccbbba0f807",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
-                    "sourcePort": "886466cb-4397-4205-8b4e-3ae11d6bfd3d",
-                    "target": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
-                    "targetPort": "1a62ae31-7aea-48d7-81c2-2881830a79c3",
+                    "source": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
+                    "sourcePort": "95929fbe-5348-419a-81a1-8f14eedb4315",
+                    "target": "deb5e405-b8ed-4139-9d70-5f830413a49b",
+                    "targetPort": "8870caa0-6ee3-45c4-9419-db5162021199",
                     "points": [
                         {
                             "id": "4f2c1033-f109-4d65-90a1-2af96609a1c9",
                             "type": "point",
-                            "x": 1225.446,
-                            "y": 113.05
+                            "x": 1198.999935167652,
+                            "y": 121.68748994749396
                         },
                         {
                             "id": "ad6107b4-6029-4590-9f63-95f6bc014ce4",
                             "type": "point",
-                            "x": 1295.017,
-                            "y": 115.469
+                            "x": 1297.1499977286871,
+                            "y": 124.11249299925177
                         }
                     ],
                     "labels": [],
@@ -399,16 +399,16 @@
                     "id": "a48213bb-95a9-4c9b-8b6e-1d2697da5048",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
-                    "sourcePort": "886466cb-4397-4205-8b4e-3ae11d6bfd3d",
-                    "target": "b21a101a-2cdb-4bf5-80dc-48a641717419",
-                    "targetPort": "ecc3cb36-ec66-44f5-b456-f92de53ee22d",
+                    "source": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
+                    "sourcePort": "95929fbe-5348-419a-81a1-8f14eedb4315",
+                    "target": "57b2a06b-92f6-4ee1-97eb-2923777aa218",
+                    "targetPort": "4a4946a0-c707-4059-ae2b-3dd08b3b62b5",
                     "points": [
                         {
                             "id": "9b5ae92c-965e-4f5c-92b0-8011b7f3169c",
                             "type": "point",
-                            "x": 1225.446,
-                            "y": 113.05
+                            "x": 1198.999935167652,
+                            "y": 121.68748994749396
                         },
                         {
                             "id": "bb90eea1-9621-4b46-8611-cb684cadfa5b",
@@ -437,8 +437,8 @@
                         {
                             "id": "069ab611-9c5b-41c0-b632-a127d08e5f3b",
                             "type": "point",
-                            "x": 1537.367,
-                            "y": 118.142
+                            "x": 1539.4876060660893,
+                            "y": 126.77500863951056
                         }
                     ],
                     "labels": [],
@@ -451,22 +451,22 @@
                     "id": "814dd321-d8e9-4a64-890e-a521b91bc9ed",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
-                    "sourcePort": "15ae3121-ac84-4bf8-bb23-b543b6c5d20b",
-                    "target": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
-                    "targetPort": "691d4494-d936-469f-80e6-2ba3068d94c2",
+                    "source": "94e77970-9067-4313-9961-6661809d7861",
+                    "sourcePort": "8234664d-d41e-45b9-9cd8-639cac04ca29",
+                    "target": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
+                    "targetPort": "09c2d0ff-b9d2-4226-9b4f-8ef667244dda",
                     "points": [
                         {
                             "id": "c4871e0f-0f48-4e4a-a4c8-dd74fa525bb5",
                             "type": "point",
-                            "x": 887.217,
-                            "y": -50.654
+                            "x": 918.0750427421149,
+                            "y": -47.63750413972521
                         },
                         {
                             "id": "4889bd35-51ea-496d-9f43-921588d56558",
                             "type": "point",
-                            "x": 988.247,
-                            "y": 97.066
+                            "x": 990.3750000175055,
+                            "y": 100.08751099389403
                         }
                     ],
                     "labels": [],
@@ -479,22 +479,22 @@
                     "id": "f212f466-2924-41d4-8296-9de1a21d5e90",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
-                    "sourcePort": "1f538d67-5dea-41bd-b3c9-394fb2b25fcc",
-                    "target": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
-                    "targetPort": "10210233-376b-4bbf-a6a5-8cca9250636a",
+                    "source": "94e77970-9067-4313-9961-6661809d7861",
+                    "sourcePort": "8c67b271-fa8b-49a4-91d7-546f26c20ad9",
+                    "target": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
+                    "targetPort": "fb4eb708-ba34-4254-8ba3-f36b53b50b32",
                     "points": [
                         {
                             "id": "89c473f0-463a-44e9-bfd9-e31acb425049",
                             "type": "point",
-                            "x": 887.217,
-                            "y": -34.67
+                            "x": 918.0750427421149,
+                            "y": -26.037496128860962
                         },
                         {
                             "id": "ec0219b0-ad68-412a-9280-2dae6c35bc56",
                             "type": "point",
-                            "x": 988.247,
-                            "y": 129.034
+                            "x": 990.3750000175055,
+                            "y": 143.28752701562254
                         }
                     ],
                     "labels": [],
@@ -507,22 +507,22 @@
                     "id": "9a7c4dca-f94f-46df-9251-c035bfd9d8cc",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
-                    "sourcePort": "c0b89e29-3657-4a28-9a66-4cf08ed0e320",
-                    "target": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
-                    "targetPort": "9e680542-b2de-4e23-982c-a1fbf5405348",
+                    "source": "94e77970-9067-4313-9961-6661809d7861",
+                    "sourcePort": "20f53fc4-87b1-4a94-afc2-78c6d8f88c3c",
+                    "target": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
+                    "targetPort": "a2f533a1-1c2b-4481-8cf3-12bb4069e41c",
                     "points": [
                         {
                             "id": "52680bf4-ed24-4f2e-9b75-e8893e814d7b",
                             "type": "point",
-                            "x": 887.217,
-                            "y": -18.686
+                            "x": 918.0750427421149,
+                            "y": -4.437482902590293
                         },
                         {
                             "id": "7165094e-ff6b-4711-aa5b-92802f809db9",
                             "type": "point",
-                            "x": 988.247,
-                            "y": 145.017
+                            "x": 990.3750000175055,
+                            "y": 164.88750596922247
                         }
                     ],
                     "labels": [],
@@ -535,22 +535,22 @@
                     "id": "83920a2c-21b2-418c-a89f-55fcd24728bb",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
-                    "sourcePort": "eb4ccf0e-37f2-4808-a299-d1065ef462f4",
-                    "target": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
-                    "targetPort": "0ffb388a-9103-426a-a04d-865d846f815b",
+                    "source": "94e77970-9067-4313-9961-6661809d7861",
+                    "sourcePort": "7bb85d53-6ae1-4577-b82d-df7a24ac8713",
+                    "target": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
+                    "targetPort": "c4fa5b28-aa50-4620-89f9-094da945552c",
                     "points": [
                         {
                             "id": "bff36103-ed8f-4f90-8359-b5b520bbf9b5",
                             "type": "point",
-                            "x": 887.217,
-                            "y": -2.703
+                            "x": 918.0750427421149,
+                            "y": 17.16249605100963
                         },
                         {
                             "id": "8b724053-c7b1-40bc-a9fb-8d285bff26a9",
                             "type": "point",
-                            "x": 988.247,
-                            "y": 161.001
+                            "x": 990.3750000175055,
+                            "y": 186.48749535363524
                         }
                     ],
                     "labels": [],
@@ -563,22 +563,22 @@
                     "id": "355249aa-187c-4597-a9bb-9d4b95698167",
                     "type": "triangle-link",
                     "selected": false,
-                    "source": "a00dc242-2720-483e-867c-9d0f9db6689d",
-                    "sourcePort": "e6c678b0-51e5-4b21-b352-d8ff2369094f",
-                    "target": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
-                    "targetPort": "36201009-436a-4649-85ee-ece36009ed07",
+                    "source": "093fcbea-7ab0-4654-93e1-b69148236c10",
+                    "sourcePort": "3160ae6f-901a-4b29-9ff5-7e79bbd9f6db",
+                    "target": "94e77970-9067-4313-9961-6661809d7861",
+                    "targetPort": "3190796c-fc9a-45c3-a147-bab18a24c0d2",
                     "points": [
                         {
                             "id": "14c1dca1-95ae-4950-96a6-e2ba7096ef9d",
                             "type": "point",
-                            "x": 658.779,
-                            "y": 110.515
+                            "x": 632.3374328788337,
+                            "y": 113.5375322906336
                         },
                         {
                             "id": "551151bc-816e-4ce1-aca8-15f4b6da1e75",
                             "type": "point",
-                            "x": 726.892,
-                            "y": -50.654
+                            "x": 729.0124853726444,
+                            "y": -47.63750413972521
                         }
                     ],
                     "labels": [],
@@ -591,22 +591,22 @@
                     "id": "467a6a18-f82b-4e0f-a853-e688e4fa9efc",
                     "type": "parameter-link",
                     "selected": false,
-                    "source": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
-                    "sourcePort": "c0b89e29-3657-4a28-9a66-4cf08ed0e320",
-                    "target": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
-                    "targetPort": "0dc35001-8bfb-4193-ba21-f4c46e85f0f7",
+                    "source": "94e77970-9067-4313-9961-6661809d7861",
+                    "sourcePort": "20f53fc4-87b1-4a94-afc2-78c6d8f88c3c",
+                    "target": "deb5e405-b8ed-4139-9d70-5f830413a49b",
+                    "targetPort": "293b5ed0-2379-47fc-94b1-9f327ea57375",
                     "points": [
                         {
                             "id": "eeee9f60-c47a-4d61-a124-a3be44480103",
                             "type": "point",
-                            "x": 887.217,
-                            "y": -18.686
+                            "x": 918.0750427421149,
+                            "y": -4.437482902590293
                         },
                         {
                             "id": "92e19bc1-1e5c-4f2a-afe6-1d2d8f962168",
                             "type": "point",
-                            "x": 1295.017,
-                            "y": 147.436
+                            "x": 1297.1499977286871,
+                            "y": 167.3125090209803
                         }
                     ],
                     "labels": [],
@@ -618,7 +618,7 @@
             }
         },
         {
-            "id": "6142edaf-8edb-42ac-8bce-70066ef234f6",
+            "id": "e60a4ac5-2b0e-4629-b7ec-6be227980bcd",
             "type": "diagram-nodes",
             "isSvg": false,
             "transformed": true,
@@ -638,8 +638,8 @@
                             "id": "eed7eb52-3ae5-4137-9925-dbcbdef7fd0f",
                             "type": "default",
                             "extras": {},
-                            "x": 82.847,
-                            "y": 139.028,
+                            "x": 109.66251917443864,
+                            "y": 139.23753892463057,
                             "name": "out-0",
                             "alignment": "right",
                             "parentNode": "8280f38d-de54-4b9e-ab0d-b38b5d06f4ea",
@@ -660,43 +660,6 @@
                         "eed7eb52-3ae5-4137-9925-dbcbdef7fd0f"
                     ]
                 },
-                "51a2fbc2-fc54-483b-b614-5441bdf2737f": {
-                    "id": "51a2fbc2-fc54-483b-b614-5441bdf2737f",
-                    "type": "custom-node",
-                    "selected": false,
-                    "extras": {
-                        "type": "Finish",
-                        "borderColor": "rgb(0,192,255)"
-                    },
-                    "x": 1756.936,
-                    "y": 144.216,
-                    "ports": [
-                        {
-                            "id": "a92e8932-f808-4f23-b31d-d6c9c1224a81",
-                            "type": "default",
-                            "extras": {},
-                            "x": 1758.414,
-                            "y": 170.799,
-                            "name": "in-0",
-                            "alignment": "left",
-                            "parentNode": "51a2fbc2-fc54-483b-b614-5441bdf2737f",
-                            "links": [
-                                "5315243a-5649-4661-b756-b60c60747c9d"
-                            ],
-                            "in": true,
-                            "label": "▶",
-                            "varName": "▶",
-                            "portType": "",
-                            "dataType": ""
-                        }
-                    ],
-                    "name": "Finish",
-                    "color": "rgb(255,102,102)",
-                    "portsInOrder": [
-                        "a92e8932-f808-4f23-b31d-d6c9c1224a81"
-                    ],
-                    "portsOutOrder": []
-                },
                 "3ddb236a-fa4f-4343-9118-9321675f5b4d": {
                     "id": "3ddb236a-fa4f-4343-9118-9321675f5b4d",
                     "type": "custom-node",
@@ -712,8 +675,8 @@
                             "id": "0f7fd679-27ae-44d5-8d23-043d6d036e82",
                             "type": "default",
                             "extras": {},
-                            "x": 74.132,
-                            "y": 211.632,
+                            "x": 73.53747912011737,
+                            "y": 208.85004197638835,
                             "name": "out-0",
                             "alignment": "right",
                             "parentNode": "3ddb236a-fa4f-4343-9118-9321675f5b4d",
@@ -741,15 +704,15 @@
                     "extras": {
                         "type": "int"
                     },
-                    "x": 816.388,
+                    "x": 821.2267096774194,
                     "y": 181.892,
                     "ports": [
                         {
                             "id": "1394a01e-4771-45a3-9f26-4e47fc2d173d",
                             "type": "default",
                             "extras": {},
-                            "x": 880.081,
-                            "y": 208.472,
+                            "x": 884.7000462587889,
+                            "y": 205.68751489203777,
                             "name": "out-0",
                             "alignment": "right",
                             "parentNode": "6386d197-25cb-4a6f-8628-e411802a404c",
@@ -770,12 +733,70 @@
                         "1394a01e-4771-45a3-9f26-4e47fc2d173d"
                     ]
                 },
-                "b21a101a-2cdb-4bf5-80dc-48a641717419": {
-                    "id": "b21a101a-2cdb-4bf5-80dc-48a641717419",
+                "28fed5a6-c5ae-4477-97cd-d76d37bb4afb": {
+                    "id": "28fed5a6-c5ae-4477-97cd-d76d37bb4afb",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "Finish"
+                    },
+                    "x": 1756.936,
+                    "y": 144.216,
+                    "ports": [
+                        {
+                            "id": "7d2aae7d-a3d3-41a0-8422-3267b822e640",
+                            "type": "default",
+                            "extras": {},
+                            "x": 1757.7249867495113,
+                            "y": 171.0124889520964,
+                            "name": "in-0",
+                            "alignment": "left",
+                            "parentNode": "28fed5a6-c5ae-4477-97cd-d76d37bb4afb",
+                            "links": [
+                                "5315243a-5649-4661-b756-b60c60747c9d"
+                            ],
+                            "in": true,
+                            "label": "▶",
+                            "varName": "▶",
+                            "portType": "",
+                            "dataType": ""
+                        },
+                        {
+                            "id": "c67caa81-76e9-49dc-8075-659ff100cc5e",
+                            "type": "default",
+                            "extras": {},
+                            "x": 1757.7249867495113,
+                            "y": 192.61249696296062,
+                            "name": "parameter-dynalist-outputs",
+                            "alignment": "left",
+                            "parentNode": "28fed5a6-c5ae-4477-97cd-d76d37bb4afb",
+                            "links": [],
+                            "in": true,
+                            "label": "outputs",
+                            "varName": "outputs",
+                            "portType": "",
+                            "dataType": "dynalist",
+                            "dynaPortOrder": 0,
+                            "dynaPortRef": {
+                                "previous": null,
+                                "next": null
+                            }
+                        }
+                    ],
+                    "name": "Finish",
+                    "color": "rgb(255,102,102)",
+                    "portsInOrder": [
+                        "7d2aae7d-a3d3-41a0-8422-3267b822e640",
+                        "c67caa81-76e9-49dc-8075-659ff100cc5e"
+                    ],
+                    "portsOutOrder": []
+                },
+                "57b2a06b-92f6-4ee1-97eb-2923777aa218": {
+                    "id": "57b2a06b-92f6-4ee1-97eb-2923777aa218",
+                    "type": "custom-node",
+                    "selected": true,
+                    "extras": {
+                        "type": "library_component",
                         "path": "xai_components/xai_pytorch/quickstart.py",
                         "description": "Saves a Torch model's trained state.\n\n##### inPorts:\n- model: trained torch.nn instance. \n- model_path: the path/filename to be saved as. `.pth` will be appended.\n    Default: .xircuits filename + .pth.",
                         "lineNo": [
@@ -783,21 +804,20 @@
                                 "lineno": 246,
                                 "end_lineno": 262
                             }
-                        ],
-                        "nextNode": "None"
+                        ]
                     },
                     "x": 1528.398,
                     "y": 68.083,
                     "ports": [
                         {
-                            "id": "83598e73-3b1b-42f8-8402-ac65bc5ac493",
+                            "id": "62eb9878-1b66-4e77-8582-089c07821b50",
                             "type": "default",
                             "extras": {},
-                            "x": 1529.873,
-                            "y": 94.664,
+                            "x": 1529.1876179750973,
+                            "y": 94.87499391120285,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "b21a101a-2cdb-4bf5-80dc-48a641717419",
+                            "parentNode": "57b2a06b-92f6-4ee1-97eb-2923777aa218",
                             "links": [
                                 "64534766-c617-4b15-b0fc-25ddb1411ba2"
                             ],
@@ -808,14 +828,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "ecc3cb36-ec66-44f5-b456-f92de53ee22d",
+                            "id": "4a4946a0-c707-4059-ae2b-3dd08b3b62b5",
                             "type": "default",
                             "extras": {},
-                            "x": 1529.873,
-                            "y": 110.648,
+                            "x": 1529.1876179750973,
+                            "y": 116.47500192206711,
                             "name": "parameter-nn.Module-model",
                             "alignment": "left",
-                            "parentNode": "b21a101a-2cdb-4bf5-80dc-48a641717419",
+                            "parentNode": "57b2a06b-92f6-4ee1-97eb-2923777aa218",
                             "links": [
                                 "a48213bb-95a9-4c9b-8b6e-1d2697da5048"
                             ],
@@ -826,14 +846,14 @@
                             "dataType": "nn.Module"
                         },
                         {
-                            "id": "971335ea-70b1-4c70-a028-da8ff2156270",
+                            "id": "9e258b9d-ed2d-4070-8d91-afdc71a54d94",
                             "type": "default",
                             "extras": {},
-                            "x": 1529.873,
-                            "y": 126.632,
+                            "x": 1529.1876179750973,
+                            "y": 138.07500993293135,
                             "name": "parameter-string-model_path",
                             "alignment": "left",
-                            "parentNode": "b21a101a-2cdb-4bf5-80dc-48a641717419",
+                            "parentNode": "57b2a06b-92f6-4ee1-97eb-2923777aa218",
                             "links": [],
                             "in": true,
                             "label": "model_path",
@@ -842,14 +862,14 @@
                             "dataType": "string"
                         },
                         {
-                            "id": "12717700-1e0a-49ad-a720-6e13f9ecc17d",
+                            "id": "d4358e6a-12ac-4607-aef0-8cf548c723fa",
                             "type": "default",
                             "extras": {},
-                            "x": 1666.377,
-                            "y": 94.664,
+                            "x": 1692.8251606997067,
+                            "y": 94.87499391120285,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "b21a101a-2cdb-4bf5-80dc-48a641717419",
+                            "parentNode": "57b2a06b-92f6-4ee1-97eb-2923777aa218",
                             "links": [
                                 "5315243a-5649-4661-b756-b60c60747c9d"
                             ],
@@ -861,22 +881,22 @@
                         }
                     ],
                     "name": "SaveTorchModelState",
-                    "color": "rgb(204,204,204)",
+                    "color": "rgb(102,102,102)",
                     "portsInOrder": [
-                        "83598e73-3b1b-42f8-8402-ac65bc5ac493",
-                        "ecc3cb36-ec66-44f5-b456-f92de53ee22d",
-                        "971335ea-70b1-4c70-a028-da8ff2156270"
+                        "62eb9878-1b66-4e77-8582-089c07821b50",
+                        "4a4946a0-c707-4059-ae2b-3dd08b3b62b5",
+                        "9e258b9d-ed2d-4070-8d91-afdc71a54d94"
                     ],
                     "portsOutOrder": [
-                        "12717700-1e0a-49ad-a720-6e13f9ecc17d"
+                        "d4358e6a-12ac-4607-aef0-8cf548c723fa"
                     ]
                 },
-                "a00dc242-2720-483e-867c-9d0f9db6689d": {
-                    "id": "a00dc242-2720-483e-867c-9d0f9db6689d",
+                "093fcbea-7ab0-4654-93e1-b69148236c10": {
+                    "id": "093fcbea-7ab0-4654-93e1-b69148236c10",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_pytorch/quickstart.py",
                         "description": "Creates data iterators from torch datasets. \nTo be used with `LoadTorchVisionDataset` component.\n\n##### inPorts:\n- training_data: Torch Dataset of training data.\n- test_data: Torch Dataset of test data.\n- batch_size: batch size to iterate though.\n    Default: 64\n\n##### outPorts:\n- train_dataloader: Dataloader instance for training data.\n- test_dataloader: Dataloader instance for test data.",
                         "lineNo": [
@@ -890,14 +910,14 @@
                     "y": 76.441,
                     "ports": [
                         {
-                            "id": "e7527715-bd3c-4741-9b19-8984528d9364",
+                            "id": "b15ae97c-d882-4b0e-ade5-71749dd1c652",
                             "type": "default",
                             "extras": {},
-                            "x": 420.197,
-                            "y": 103.021,
+                            "x": 419.5124966677247,
+                            "y": 103.23752557319015,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "a00dc242-2720-483e-867c-9d0f9db6689d",
+                            "parentNode": "093fcbea-7ab0-4654-93e1-b69148236c10",
                             "links": [
                                 "3e7d385e-3c9b-4227-b5e2-c95745445221"
                             ],
@@ -908,14 +928,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "297bf42a-5ed1-4e77-af0a-350833a06bd1",
+                            "id": "87112eb0-1e7c-437b-8318-bdb495ccf583",
                             "type": "default",
                             "extras": {},
-                            "x": 420.197,
-                            "y": 119.005,
+                            "x": 419.5124966677247,
+                            "y": 124.83748590033858,
                             "name": "parameter-torch.utils.data.Dataset-training_data",
                             "alignment": "left",
-                            "parentNode": "a00dc242-2720-483e-867c-9d0f9db6689d",
+                            "parentNode": "093fcbea-7ab0-4654-93e1-b69148236c10",
                             "links": [
                                 "5bfb5a89-54f9-40ec-b6d2-77959517e384"
                             ],
@@ -926,14 +946,14 @@
                             "dataType": "torch.utils.data.Dataset"
                         },
                         {
-                            "id": "e029bcdf-453f-4c20-aee5-79b05b7e56d2",
+                            "id": "9960f397-94cd-4826-ae1a-3114c984c2f5",
                             "type": "default",
                             "extras": {},
-                            "x": 420.197,
-                            "y": 134.988,
+                            "x": 419.5124966677247,
+                            "y": 146.43749391120284,
                             "name": "parameter-torch.utils.data.Dataset-test_data",
                             "alignment": "left",
-                            "parentNode": "a00dc242-2720-483e-867c-9d0f9db6689d",
+                            "parentNode": "093fcbea-7ab0-4654-93e1-b69148236c10",
                             "links": [
                                 "94d8f427-14c6-451f-9a22-91ceb0153ed9"
                             ],
@@ -944,14 +964,14 @@
                             "dataType": "torch.utils.data.Dataset"
                         },
                         {
-                            "id": "32a2bc32-7c99-4b19-81c7-c8d289e8bced",
+                            "id": "c29f2845-79a5-4b61-8328-b1bd40bdaa64",
                             "type": "default",
                             "extras": {},
-                            "x": 420.197,
-                            "y": 150.972,
+                            "x": 419.5124966677247,
+                            "y": 168.0375019220671,
                             "name": "parameter-int-batch_size",
                             "alignment": "left",
-                            "parentNode": "a00dc242-2720-483e-867c-9d0f9db6689d",
+                            "parentNode": "093fcbea-7ab0-4654-93e1-b69148236c10",
                             "links": [],
                             "in": true,
                             "label": "batch_size",
@@ -960,14 +980,14 @@
                             "dataType": "int"
                         },
                         {
-                            "id": "e6c678b0-51e5-4b21-b352-d8ff2369094f",
+                            "id": "3160ae6f-901a-4b29-9ff5-7e79bbd9f6db",
                             "type": "default",
                             "extras": {},
-                            "x": 651.285,
-                            "y": 103.021,
+                            "x": 622.0374447878418,
+                            "y": 103.23752557319015,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "a00dc242-2720-483e-867c-9d0f9db6689d",
+                            "parentNode": "093fcbea-7ab0-4654-93e1-b69148236c10",
                             "links": [
                                 "355249aa-187c-4597-a9bb-9d4b95698167"
                             ],
@@ -978,14 +998,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "ff79fc7d-4550-4f96-b51e-735097765782",
+                            "id": "36c45128-36f6-4710-ad5e-bc8a27a46329",
                             "type": "default",
                             "extras": {},
-                            "x": 651.285,
-                            "y": 119.005,
+                            "x": 622.0374447878418,
+                            "y": 124.83748590033858,
                             "name": "parameter-out-torch.utils.data.DataLoader-train_dataloader",
                             "alignment": "right",
-                            "parentNode": "a00dc242-2720-483e-867c-9d0f9db6689d",
+                            "parentNode": "093fcbea-7ab0-4654-93e1-b69148236c10",
                             "links": [
                                 "83752b8d-3dcc-4600-8242-b91e65e20f36"
                             ],
@@ -993,17 +1013,17 @@
                             "label": "train_dataloader",
                             "varName": "train_dataloader",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "torch.utils.data.DataLoader"
                         },
                         {
-                            "id": "2c60631b-a68a-4aad-a391-dbafd0057133",
+                            "id": "d0a79088-7b10-4098-ba6c-44260833fcc0",
                             "type": "default",
                             "extras": {},
-                            "x": 651.285,
-                            "y": 134.988,
+                            "x": 622.0374447878418,
+                            "y": 146.43749391120284,
                             "name": "parameter-out-torch.utils.data.DataLoader-test_dataloader",
                             "alignment": "right",
-                            "parentNode": "a00dc242-2720-483e-867c-9d0f9db6689d",
+                            "parentNode": "093fcbea-7ab0-4654-93e1-b69148236c10",
                             "links": [
                                 "66f58ee3-9376-4a02-9fa1-cedf343482cc"
                             ],
@@ -1011,29 +1031,29 @@
                             "label": "test_dataloader",
                             "varName": "test_dataloader",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "torch.utils.data.DataLoader"
                         }
                     ],
                     "name": "TorchDataLoader",
-                    "color": "rgb(255,204,204)",
+                    "color": "rgb(153,204,204)",
                     "portsInOrder": [
-                        "e7527715-bd3c-4741-9b19-8984528d9364",
-                        "297bf42a-5ed1-4e77-af0a-350833a06bd1",
-                        "e029bcdf-453f-4c20-aee5-79b05b7e56d2",
-                        "32a2bc32-7c99-4b19-81c7-c8d289e8bced"
+                        "b15ae97c-d882-4b0e-ade5-71749dd1c652",
+                        "87112eb0-1e7c-437b-8318-bdb495ccf583",
+                        "9960f397-94cd-4826-ae1a-3114c984c2f5",
+                        "c29f2845-79a5-4b61-8328-b1bd40bdaa64"
                     ],
                     "portsOutOrder": [
-                        "e6c678b0-51e5-4b21-b352-d8ff2369094f",
-                        "ff79fc7d-4550-4f96-b51e-735097765782",
-                        "2c60631b-a68a-4aad-a391-dbafd0057133"
+                        "3160ae6f-901a-4b29-9ff5-7e79bbd9f6db",
+                        "36c45128-36f6-4710-ad5e-bc8a27a46329",
+                        "d0a79088-7b10-4098-ba6c-44260833fcc0"
                     ]
                 },
-                "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5": {
-                    "id": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
+                "542070d3-c183-4bc6-88fd-a49e9df2d2cd": {
+                    "id": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_pytorch/quickstart.py",
                         "description": "Trains a Torch model instance from a dataloader. \n\n##### inPorts:\n- train_dataloader: torch dataloader util instance. Ideally from `TorchDataLoader`.\n- model: torch.nn instance.\n- loss_fn: torch.nn loss function.\n- optimizer: torch model optimizer.\n- epochs: training epochs. \n    Default: `5`.\n\n##### outPorts:\n- trained_model: trained torch.nn instance. ",
                         "lineNo": [
@@ -1047,14 +1067,14 @@
                     "y": 62.992,
                     "ports": [
                         {
-                            "id": "691d4494-d936-469f-80e6-2ba3068d94c2",
+                            "id": "09c2d0ff-b9d2-4226-9b4f-8ef667244dda",
                             "type": "default",
                             "extras": {},
-                            "x": 980.752,
-                            "y": 89.572,
+                            "x": 980.0750119265135,
+                            "y": 89.78752290290207,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
+                            "parentNode": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
                             "links": [
                                 "814dd321-d8e9-4a64-890e-a521b91bc9ed"
                             ],
@@ -1065,14 +1085,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "aab11fe4-03b1-4077-bf56-c581cdd506a8",
+                            "id": "5504bc0b-d38d-4fe6-b95e-668110eadcc9",
                             "type": "default",
                             "extras": {},
-                            "x": 980.752,
-                            "y": 105.556,
+                            "x": 980.0750119265135,
+                            "y": 111.3874832300505,
                             "name": "parameter-torch.utils.data.DataLoader-train_dataloader",
                             "alignment": "left",
-                            "parentNode": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
+                            "parentNode": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
                             "links": [
                                 "83752b8d-3dcc-4600-8242-b91e65e20f36"
                             ],
@@ -1083,14 +1103,14 @@
                             "dataType": "torch.utils.data.DataLoader"
                         },
                         {
-                            "id": "10210233-376b-4bbf-a6a5-8cca9250636a",
+                            "id": "fb4eb708-ba34-4254-8ba3-f36b53b50b32",
                             "type": "default",
                             "extras": {},
-                            "x": 980.752,
-                            "y": 121.539,
+                            "x": 980.0750119265135,
+                            "y": 132.98753892463057,
                             "name": "parameter-nn.Module-model_config",
                             "alignment": "left",
-                            "parentNode": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
+                            "parentNode": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
                             "links": [
                                 "f212f466-2924-41d4-8296-9de1a21d5e90"
                             ],
@@ -1101,14 +1121,14 @@
                             "dataType": "nn.Module"
                         },
                         {
-                            "id": "9e680542-b2de-4e23-982c-a1fbf5405348",
+                            "id": "a2f533a1-1c2b-4481-8cf3-12bb4069e41c",
                             "type": "default",
                             "extras": {},
-                            "x": 980.752,
-                            "y": 137.523,
+                            "x": 980.0750119265135,
+                            "y": 154.587499251779,
                             "name": "parameter-any-loss_fn",
                             "alignment": "left",
-                            "parentNode": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
+                            "parentNode": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
                             "links": [
                                 "9a7c4dca-f94f-46df-9251-c035bfd9d8cc"
                             ],
@@ -1119,14 +1139,14 @@
                             "dataType": "any"
                         },
                         {
-                            "id": "0ffb388a-9103-426a-a04d-865d846f815b",
+                            "id": "c4fa5b28-aa50-4620-89f9-094da945552c",
                             "type": "default",
                             "extras": {},
-                            "x": 980.752,
-                            "y": 153.507,
+                            "x": 980.0750119265135,
+                            "y": 176.18750726264327,
                             "name": "parameter-any-optimizer",
                             "alignment": "left",
-                            "parentNode": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
+                            "parentNode": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
                             "links": [
                                 "83920a2c-21b2-418c-a89f-55fcd24728bb"
                             ],
@@ -1137,14 +1157,14 @@
                             "dataType": "any"
                         },
                         {
-                            "id": "be5ea97e-8c1d-4054-a75a-a502e73c3353",
+                            "id": "085d25bf-8188-4fbe-9d58-44e97e2ee532",
                             "type": "default",
                             "extras": {},
-                            "x": 980.752,
-                            "y": 169.491,
+                            "x": 980.0750119265135,
+                            "y": 197.78746758979167,
                             "name": "parameter-int-epochs",
                             "alignment": "left",
-                            "parentNode": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
+                            "parentNode": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
                             "links": [
                                 "d82fa6f5-d6c9-4529-89f5-c6587ee63d4b"
                             ],
@@ -1155,14 +1175,14 @@
                             "dataType": "int"
                         },
                         {
-                            "id": "c63ea41e-4532-41eb-a7ea-8a1470b7a16a",
+                            "id": "0007793b-017a-487a-bfaf-a16d7a1ac7ba",
                             "type": "default",
                             "extras": {},
-                            "x": 1217.951,
-                            "y": 89.572,
+                            "x": 1188.69994707666,
+                            "y": 89.78752290290207,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
+                            "parentNode": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
                             "links": [
                                 "947d042f-b3e4-4c99-907f-3f312ee8747e"
                             ],
@@ -1173,14 +1193,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "886466cb-4397-4205-8b4e-3ae11d6bfd3d",
+                            "id": "95929fbe-5348-419a-81a1-8f14eedb4315",
                             "type": "default",
                             "extras": {},
-                            "x": 1217.951,
-                            "y": 105.556,
+                            "x": 1188.69994707666,
+                            "y": 111.3874832300505,
                             "name": "parameter-out-nn.Module-trained_model",
                             "alignment": "right",
-                            "parentNode": "f7b5c750-0b98-4b5a-bf78-a6f57aabfec5",
+                            "parentNode": "542070d3-c183-4bc6-88fd-a49e9df2d2cd",
                             "links": [
                                 "8e0a72e0-c9ff-48ae-a50d-5ccbbba0f807",
                                 "a48213bb-95a9-4c9b-8b6e-1d2697da5048"
@@ -1189,30 +1209,30 @@
                             "label": "trained_model",
                             "varName": "trained_model",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "nn.Module"
                         }
                     ],
                     "name": "TrainTorchModel",
-                    "color": "rgb(255,153,0)",
+                    "color": "rgb(102,51,102)",
                     "portsInOrder": [
-                        "691d4494-d936-469f-80e6-2ba3068d94c2",
-                        "aab11fe4-03b1-4077-bf56-c581cdd506a8",
-                        "10210233-376b-4bbf-a6a5-8cca9250636a",
-                        "9e680542-b2de-4e23-982c-a1fbf5405348",
-                        "0ffb388a-9103-426a-a04d-865d846f815b",
-                        "be5ea97e-8c1d-4054-a75a-a502e73c3353"
+                        "09c2d0ff-b9d2-4226-9b4f-8ef667244dda",
+                        "5504bc0b-d38d-4fe6-b95e-668110eadcc9",
+                        "fb4eb708-ba34-4254-8ba3-f36b53b50b32",
+                        "a2f533a1-1c2b-4481-8cf3-12bb4069e41c",
+                        "c4fa5b28-aa50-4620-89f9-094da945552c",
+                        "085d25bf-8188-4fbe-9d58-44e97e2ee532"
                     ],
                     "portsOutOrder": [
-                        "c63ea41e-4532-41eb-a7ea-8a1470b7a16a",
-                        "886466cb-4397-4205-8b4e-3ae11d6bfd3d"
+                        "0007793b-017a-487a-bfaf-a16d7a1ac7ba",
+                        "95929fbe-5348-419a-81a1-8f14eedb4315"
                     ]
                 },
-                "a3e45784-15e9-4216-95c0-f426c85990e3": {
-                    "id": "a3e45784-15e9-4216-95c0-f426c85990e3",
+                "ccd7fc71-f949-4494-b051-4d5e03ef548c": {
+                    "id": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_pytorch/quickstart.py",
                         "description": "Loads a Torch Vision dataset.\n\n### Reference:\n- [Pytorch Vision Datasets](https://pytorch.org/vision/stable/datasets.html#built-in-datasets)\n\n##### inPorts:\n- dataset_name: Loads a valid Pytorch Vision dataset, downloads from the \nrepository if not present in `dataset_dir`. \n- dataset_dir: Path to save downloaded Pytorch Vision dataset.\n    Default: `./data`.\n\n##### outPorts:\n- training_data: train split of the dataset.\n- test_data: test split of the dataset.",
                         "lineNo": [
@@ -1226,14 +1246,14 @@
                     "y": 46.212,
                     "ports": [
                         {
-                            "id": "b83686e3-e409-46e7-98de-822e17561bd8",
+                            "id": "ae1b21d9-3149-471f-813e-d06f0149b6b4",
                             "type": "default",
                             "extras": {},
-                            "x": 164.514,
-                            "y": 72.789,
+                            "x": 163.82497377954115,
+                            "y": 72.99999391120286,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "a3e45784-15e9-4216-95c0-f426c85990e3",
+                            "parentNode": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
                             "links": [
                                 "dee0e98b-07cc-47ab-9d86-24d533e4d41c"
                             ],
@@ -1244,14 +1264,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "4a4dcb3b-1173-4b1b-87cf-4e8f80755656",
+                            "id": "2a362191-a105-4905-818e-82e1f80f8ec4",
                             "type": "default",
                             "extras": {},
-                            "x": 164.514,
-                            "y": 88.773,
+                            "x": 163.82497377954115,
+                            "y": 94.60000192206711,
                             "name": "parameter-string-dataset_name",
                             "alignment": "left",
-                            "parentNode": "a3e45784-15e9-4216-95c0-f426c85990e3",
+                            "parentNode": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
                             "links": [
                                 "87f22880-a280-48bd-b8b6-fb8c6623bc74"
                             ],
@@ -1262,14 +1282,14 @@
                             "dataType": "string"
                         },
                         {
-                            "id": "b762c157-3f24-47f7-a19c-cc2619e7b6a9",
+                            "id": "fc848ae7-4083-4bc2-987f-030ddba3bc24",
                             "type": "default",
                             "extras": {},
-                            "x": 164.514,
-                            "y": 104.757,
+                            "x": 163.82497377954115,
+                            "y": 116.20000993293137,
                             "name": "parameter-string-dataset_dir",
                             "alignment": "left",
-                            "parentNode": "a3e45784-15e9-4216-95c0-f426c85990e3",
+                            "parentNode": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
                             "links": [],
                             "in": true,
                             "label": "dataset_dir",
@@ -1278,14 +1298,14 @@
                             "dataType": "string"
                         },
                         {
-                            "id": "0ab1608a-d7c5-4f60-a1ec-bc5e0325121e",
+                            "id": "806cf7b4-3df2-483c-8c93-88061a4f30a3",
                             "type": "default",
                             "extras": {},
-                            "x": 385.822,
-                            "y": 72.789,
+                            "x": 356.5625531252442,
+                            "y": 72.99999391120286,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "a3e45784-15e9-4216-95c0-f426c85990e3",
+                            "parentNode": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
                             "links": [
                                 "3e7d385e-3c9b-4227-b5e2-c95745445221"
                             ],
@@ -1296,14 +1316,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "acb9ddf2-95af-490f-abea-6d04c14a3e93",
+                            "id": "1291e851-b2b1-4057-94c7-ce62b42a5da4",
                             "type": "default",
                             "extras": {},
-                            "x": 385.822,
-                            "y": 88.773,
+                            "x": 356.5625531252442,
+                            "y": 94.60000192206711,
                             "name": "parameter-out-torch.utils.data.Dataset-training_data",
                             "alignment": "right",
-                            "parentNode": "a3e45784-15e9-4216-95c0-f426c85990e3",
+                            "parentNode": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
                             "links": [
                                 "5bfb5a89-54f9-40ec-b6d2-77959517e384"
                             ],
@@ -1311,17 +1331,17 @@
                             "label": "training_data",
                             "varName": "training_data",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "torch.utils.data.Dataset"
                         },
                         {
-                            "id": "dbfba75d-2190-47b5-a38c-61ab3b6c5391",
+                            "id": "71f42fa7-c508-45e2-9335-7ddfcc4e3f47",
                             "type": "default",
                             "extras": {},
-                            "x": 385.822,
-                            "y": 104.757,
+                            "x": 356.5625531252442,
+                            "y": 116.20000993293137,
                             "name": "parameter-out-torch.utils.data.Dataset-test_data",
                             "alignment": "right",
-                            "parentNode": "a3e45784-15e9-4216-95c0-f426c85990e3",
+                            "parentNode": "ccd7fc71-f949-4494-b051-4d5e03ef548c",
                             "links": [
                                 "94d8f427-14c6-451f-9a22-91ceb0153ed9"
                             ],
@@ -1329,28 +1349,28 @@
                             "label": "test_data",
                             "varName": "test_data",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "torch.utils.data.Dataset"
                         }
                     ],
                     "name": "LoadTorchVisionDataset",
-                    "color": "rgb(15,255,255)",
+                    "color": "rgb(204,204,204)",
                     "portsInOrder": [
-                        "b83686e3-e409-46e7-98de-822e17561bd8",
-                        "4a4dcb3b-1173-4b1b-87cf-4e8f80755656",
-                        "b762c157-3f24-47f7-a19c-cc2619e7b6a9"
+                        "ae1b21d9-3149-471f-813e-d06f0149b6b4",
+                        "2a362191-a105-4905-818e-82e1f80f8ec4",
+                        "fc848ae7-4083-4bc2-987f-030ddba3bc24"
                     ],
                     "portsOutOrder": [
-                        "0ab1608a-d7c5-4f60-a1ec-bc5e0325121e",
-                        "acb9ddf2-95af-490f-abea-6d04c14a3e93",
-                        "dbfba75d-2190-47b5-a38c-61ab3b6c5391"
+                        "806cf7b4-3df2-483c-8c93-88061a4f30a3",
+                        "1291e851-b2b1-4057-94c7-ce62b42a5da4",
+                        "71f42fa7-c508-45e2-9335-7ddfcc4e3f47"
                     ]
                 },
-                "178e5978-0454-4ef7-b873-7d75d1aa63fd": {
-                    "id": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
+                "deb5e405-b8ed-4139-9d70-5f830413a49b": {
+                    "id": "deb5e405-b8ed-4139-9d70-5f830413a49b",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_pytorch/quickstart.py",
                         "description": "Tests a Torch model instance from a dataloader. \n\n##### inPorts:\n- test_dataloader: torch dataloader util instance. Ideally from `TorchDataLoader`.\n- model: torch.nn instance. Ideally trained.\n- loss_fn: torch.nn loss function.",
                         "lineNo": [
@@ -1364,14 +1384,14 @@
                     "y": 65.415,
                     "ports": [
                         {
-                            "id": "ce2962d3-1fa6-44d8-a5de-b83f077c5f3a",
+                            "id": "9d9b56d8-4690-4a85-8cd6-cd0e9e01e619",
                             "type": "default",
                             "extras": {},
-                            "x": 1287.523,
-                            "y": 91.991,
+                            "x": 1286.8500096376952,
+                            "y": 92.21247827094406,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
+                            "parentNode": "deb5e405-b8ed-4139-9d70-5f830413a49b",
                             "links": [
                                 "947d042f-b3e4-4c99-907f-3f312ee8747e"
                             ],
@@ -1382,14 +1402,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "1a62ae31-7aea-48d7-81c2-2881830a79c3",
+                            "id": "8870caa0-6ee3-45c4-9419-db5162021199",
                             "type": "default",
                             "extras": {},
-                            "x": 1287.523,
-                            "y": 107.975,
+                            "x": 1286.8500096376952,
+                            "y": 113.81248628180832,
                             "name": "parameter-nn.Module-model",
                             "alignment": "left",
-                            "parentNode": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
+                            "parentNode": "deb5e405-b8ed-4139-9d70-5f830413a49b",
                             "links": [
                                 "8e0a72e0-c9ff-48ae-a50d-5ccbbba0f807"
                             ],
@@ -1400,14 +1420,14 @@
                             "dataType": "nn.Module"
                         },
                         {
-                            "id": "3fb2ff1c-7a40-4710-afb0-2d0e05e725ac",
+                            "id": "5e184116-cab3-4e95-b682-32f221847a54",
                             "type": "default",
                             "extras": {},
-                            "x": 1287.523,
-                            "y": 123.958,
+                            "x": 1286.8500096376952,
+                            "y": 135.41249429267256,
                             "name": "parameter-torch.utils.data.DataLoader-test_dataloader",
                             "alignment": "left",
-                            "parentNode": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
+                            "parentNode": "deb5e405-b8ed-4139-9d70-5f830413a49b",
                             "links": [
                                 "66f58ee3-9376-4a02-9fa1-cedf343482cc"
                             ],
@@ -1418,14 +1438,14 @@
                             "dataType": "torch.utils.data.DataLoader"
                         },
                         {
-                            "id": "0dc35001-8bfb-4193-ba21-f4c46e85f0f7",
+                            "id": "293b5ed0-2379-47fc-94b1-9f327ea57375",
                             "type": "default",
                             "extras": {},
-                            "x": 1287.523,
-                            "y": 139.942,
+                            "x": 1286.8500096376952,
+                            "y": 157.01250230353682,
                             "name": "parameter-any-loss_fn",
                             "alignment": "left",
-                            "parentNode": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
+                            "parentNode": "deb5e405-b8ed-4139-9d70-5f830413a49b",
                             "links": [
                                 "467a6a18-f82b-4e0f-a853-e688e4fa9efc"
                             ],
@@ -1436,14 +1456,14 @@
                             "dataType": "any"
                         },
                         {
-                            "id": "ef0df415-924d-436a-b99a-aa506461bc63",
+                            "id": "9eff282a-6b08-4645-ae60-c0d25578f469",
                             "type": "default",
                             "extras": {},
-                            "x": 1443.577,
-                            "y": 91.991,
+                            "x": 1422.0875126894528,
+                            "y": 92.21247827094406,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "178e5978-0454-4ef7-b873-7d75d1aa63fd",
+                            "parentNode": "deb5e405-b8ed-4139-9d70-5f830413a49b",
                             "links": [
                                 "64534766-c617-4b15-b0fc-25ddb1411ba2"
                             ],
@@ -1455,23 +1475,23 @@
                         }
                     ],
                     "name": "TestTorchModel",
-                    "color": "rgb(255,204,0)",
+                    "color": "rgb(153,51,204)",
                     "portsInOrder": [
-                        "ce2962d3-1fa6-44d8-a5de-b83f077c5f3a",
-                        "1a62ae31-7aea-48d7-81c2-2881830a79c3",
-                        "3fb2ff1c-7a40-4710-afb0-2d0e05e725ac",
-                        "0dc35001-8bfb-4193-ba21-f4c46e85f0f7"
+                        "9d9b56d8-4690-4a85-8cd6-cd0e9e01e619",
+                        "8870caa0-6ee3-45c4-9419-db5162021199",
+                        "5e184116-cab3-4e95-b682-32f221847a54",
+                        "293b5ed0-2379-47fc-94b1-9f327ea57375"
                     ],
                     "portsOutOrder": [
-                        "ef0df415-924d-436a-b99a-aa506461bc63"
+                        "9eff282a-6b08-4645-ae60-c0d25578f469"
                     ]
                 },
-                "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a": {
-                    "id": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
+                "94e77970-9067-4313-9961-6661809d7861": {
+                    "id": "94e77970-9067-4313-9961-6661809d7861",
                     "type": "custom-node",
-                    "selected": false,
+                    "selected": true,
                     "extras": {
-                        "type": "debug",
+                        "type": "library_component",
                         "path": "xai_components/xai_pytorch/quickstart.py",
                         "description": "Creates example Torch Model config.\n##### outPorts:\n- model: torch.nn instance that expects a 28*28 input.\n- loss_fn: nn.CrossEntropyLoss()\n- optimizer: torch.optim.SGD(model.parameters(), lr=1e-3)",
                         "lineNo": [
@@ -1485,14 +1505,14 @@
                     "y": -84.745,
                     "ports": [
                         {
-                            "id": "36201009-436a-4649-85ee-ece36009ed07",
+                            "id": "3190796c-fc9a-45c3-a147-bab18a24c0d2",
                             "type": "default",
                             "extras": {},
-                            "x": 719.398,
-                            "y": -58.148,
+                            "x": 718.7124592836914,
+                            "y": -57.937510857168675,
                             "name": "in-0",
                             "alignment": "left",
-                            "parentNode": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
+                            "parentNode": "94e77970-9067-4313-9961-6661809d7861",
                             "links": [
                                 "355249aa-187c-4597-a9bb-9d4b95698167"
                             ],
@@ -1503,14 +1523,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "15ae3121-ac84-4bf8-bb23-b543b6c5d20b",
+                            "id": "8234664d-d41e-45b9-9cd8-639cac04ca29",
                             "type": "default",
                             "extras": {},
-                            "x": 879.722,
-                            "y": -58.148,
+                            "x": 907.7750546511229,
+                            "y": -57.937510857168675,
                             "name": "out-0",
                             "alignment": "right",
-                            "parentNode": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
+                            "parentNode": "94e77970-9067-4313-9961-6661809d7861",
                             "links": [
                                 "814dd321-d8e9-4a64-890e-a521b91bc9ed"
                             ],
@@ -1521,14 +1541,14 @@
                             "dataType": ""
                         },
                         {
-                            "id": "1f538d67-5dea-41bd-b3c9-394fb2b25fcc",
+                            "id": "8c67b271-fa8b-49a4-91d7-546f26c20ad9",
                             "type": "default",
                             "extras": {},
-                            "x": 879.722,
-                            "y": -42.164,
+                            "x": 907.7750546511229,
+                            "y": -36.337502846304425,
                             "name": "parameter-out-nn.Module-model_config",
                             "alignment": "right",
-                            "parentNode": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
+                            "parentNode": "94e77970-9067-4313-9961-6661809d7861",
                             "links": [
                                 "f212f466-2924-41d4-8296-9de1a21d5e90"
                             ],
@@ -1536,17 +1556,17 @@
                             "label": "model_config",
                             "varName": "model_config",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "nn.Module"
                         },
                         {
-                            "id": "c0b89e29-3657-4a28-9a66-4cf08ed0e320",
+                            "id": "20f53fc4-87b1-4a94-afc2-78c6d8f88c3c",
                             "type": "default",
                             "extras": {},
-                            "x": 879.722,
-                            "y": -26.181,
+                            "x": 907.7750546511229,
+                            "y": -14.737470993582264,
                             "name": "parameter-out-any-loss_fn",
                             "alignment": "right",
-                            "parentNode": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
+                            "parentNode": "94e77970-9067-4313-9961-6661809d7861",
                             "links": [
                                 "9a7c4dca-f94f-46df-9251-c035bfd9d8cc",
                                 "467a6a18-f82b-4e0f-a853-e688e4fa9efc"
@@ -1555,17 +1575,17 @@
                             "label": "loss_fn",
                             "varName": "loss_fn",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "any"
                         },
                         {
-                            "id": "eb4ccf0e-37f2-4808-a299-d1065ef462f4",
+                            "id": "7bb85d53-6ae1-4577-b82d-df7a24ac8713",
                             "type": "default",
                             "extras": {},
-                            "x": 879.722,
-                            "y": -10.197,
+                            "x": 907.7750546511229,
+                            "y": 6.862489333566166,
                             "name": "parameter-out-any-optimizer",
                             "alignment": "right",
-                            "parentNode": "32f28e4c-5ea3-47cb-90d3-68c4a5ce849a",
+                            "parentNode": "94e77970-9067-4313-9961-6661809d7861",
                             "links": [
                                 "83920a2c-21b2-418c-a89f-55fcd24728bb"
                             ],
@@ -1573,19 +1593,19 @@
                             "label": "optimizer",
                             "varName": "optimizer",
                             "portType": "",
-                            "dataType": ""
+                            "dataType": "any"
                         }
                     ],
                     "name": "ExampleTorchModelConfig",
-                    "color": "rgb(153,204,51)",
+                    "color": "rgb(153,0,102)",
                     "portsInOrder": [
-                        "36201009-436a-4649-85ee-ece36009ed07"
+                        "3190796c-fc9a-45c3-a147-bab18a24c0d2"
                     ],
                     "portsOutOrder": [
-                        "15ae3121-ac84-4bf8-bb23-b543b6c5d20b",
-                        "1f538d67-5dea-41bd-b3c9-394fb2b25fcc",
-                        "c0b89e29-3657-4a28-9a66-4cf08ed0e320",
-                        "eb4ccf0e-37f2-4808-a299-d1065ef462f4"
+                        "8234664d-d41e-45b9-9cd8-639cac04ca29",
+                        "8c67b271-fa8b-49a4-91d7-546f26c20ad9",
+                        "20f53fc4-87b1-4a94-afc2-78c6d8f88c3c",
+                        "7bb85d53-6ae1-4577-b82d-df7a24ac8713"
                     ]
                 }
             }
