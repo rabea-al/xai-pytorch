@@ -8,6 +8,12 @@ readme = "README.md"
 repository = "https://github.com/XpressAI/xai-pytorch"
 keywords = ["xircuits", "pytorch", "deep learning"]
 
+dependencies = [
+    "torch==2.4.1",
+    "torchvision==0.19.1",
+    "pillow"
+]
+
 # Xircuits-specific configurations
 [tool.xircuits]
 default_example_path = "examples/PyTorchTrainModel.xircuits"
