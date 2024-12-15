@@ -37,9 +37,7 @@ This library integrates PyTorch into Xircuits workflows, providing tools for sea
 
 ### PytorchTrainModel Example
 
-<img src="https://github.com/user-attachments/assets/f486ada5-c28a-4d6c-8b1b-2515ef1daa9d" alt="PytorchTrainModel example"  />
-
-
+![PytorchTrainModel](https://github.com/user-attachments/assets/d494a80a-2e50-46c7-b663-16a0495ecef0)
 
 ### PytorchTrainModel Result
 
@@ -47,7 +45,8 @@ This library integrates PyTorch into Xircuits workflows, providing tools for sea
 
 ### PytorchPredictFromModel Example
 
-<img src="https://github.com/user-attachments/assets/cc352680-3663-41c2-b707-571429c4a289" alt="PytorchPredictFromModel"  />
+![PytorchPredictFromModel](https://github.com/user-attachments/assets/60be010e-9dde-4dea-9de4-063951bce6b4)
+
 
 ### PytorchPredictFromModel Result
 
@@ -55,14 +54,11 @@ This library integrates PyTorch into Xircuits workflows, providing tools for sea
 
 ### PytorchTrainCustomNN Example
 
-<img src="https://github.com/user-attachments/assets/2e28e1f4-4df9-46b0-a3b8-6247f6aa0e9a" alt="PytorchTrainCustomNN" />
-
+![PytorchTrainCustomNN](https://github.com/user-attachments/assets/7da9f1f4-762e-44f8-bc49-76b8f8d0c145)
 
 ### PytorchTrainCustomNN Result
 
 <img src="https://github.com/user-attachments/assets/e42d46da-26e4-46c6-ae71-1c4b74ce6ec2" alt="PytorchTrainCustomNN result"  />
-
-
 
 ## Prerequisites
 
